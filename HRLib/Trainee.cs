@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HRLib
 {
-    internal class Trainee : Employee
+    public class Trainee : Employee
     {
 		private int noOfDays;
 
@@ -41,7 +41,7 @@ namespace HRLib
 
         public override string ToString()
         {
-            return $"{this.Name} with employee id {this.Id} is a confirmed employee with salary {this.CalculateSalary}";
+            return $"{this.Name} with employee id {this.Id} is a trainee employee with salary {this.CalculateSalary()}";
         }
     }
 }

@@ -14,6 +14,9 @@ namespace Assignment2
                 ConfirmEmployee CE2 = new ConfirmEmployee("software engineer", 40000, "Ankita", "tkg");
                 Console.WriteLine(CE2);
 
+                Trainee t1 = new Trainee();
+                Console.WriteLine(t1);
+
             }
             catch (ExceptionOfSalary ex)
 			{
